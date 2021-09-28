@@ -3,9 +3,9 @@
     <property name="semantic_version" type="string">6.0.1</property>
     <property name="width" type="double">640.0</property>
     <property name="height" type="double">352.0</property>
-    <property name="magnification" type="double">1.5874010519681994</property>
-    <property name="center_x" type="int">404</property>
-    <property name="center_y" type="int">281</property>
+    <property name="magnification" type="double">2.244924096618746</property>
+    <property name="center_x" type="int">745</property>
+    <property name="center_y" type="int">236</property>
     <property name="videoclip" type="object">
     <object class="org.opensourcephysics.media.core.VideoClip">
         <property name="video" type="object">
@@ -38,8 +38,8 @@
         <property name="framedata" type="array" class="[Lorg.opensourcephysics.media.core.ImageCoordSystem$FrameData;">
             <property name="[0]" type="object">
             <object class="org.opensourcephysics.media.core.ImageCoordSystem$FrameData">
-                <property name="xorigin" type="double">314.5</property>
-                <property name="yorigin" type="double">45.5</property>
+                <property name="xorigin" type="double">313.85496866606985</property>
+                <property name="yorigin" type="double">66.49239033124441</property>
                 <property name="angle" type="double">0.0</property>
                 <property name="xscale" type="double">116.54513642449625</property>
                 <property name="yscale" type="double">116.54513642449625</property>
@@ -513,8 +513,32 @@
             </property>
         </object>
         </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.cabrillo.tracker.Protractor">
+            <property name="name" type="string">transportador A</property>
+            <property name="color" type="object">
+            <object class="java.awt.Color">
+                <property name="red" type="int">0</property>
+                <property name="green" type="int">140</property>
+                <property name="blue" type="int">40</property>
+                <property name="alpha" type="int">255</property>
+            </object>
+            </property>
+            <property name="footprint" type="string">ProtractorFootprint.Circle3</property>
+            <property name="visible" type="boolean">true</property>
+            <property name="trail" type="boolean">false</property>
+            <property name="attachments" type="array" class="[Ljava.lang.String;">
+                <property name="[2]" type="string">Intento_2</property>
+            </property>
+            <property name="fixed" type="boolean">false</property>
+            <property name="framedata" type="array" class="[[D">
+                <property name="array" type="string">{{314.1700984780663,182.14503133393018,363.85496866606985,-20.110150047199454,313.85496866606985,66.49239033124441},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{314.1700984780663,182.14503133393018,344.8937129968992,176.23287285029627,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,344.8744964213394,176.2422337729848,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,344.1486044709174,176.29716469829916,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,343.35935580447136,176.44768454453677,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,341.9351673507925,176.81953349341208,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,340.8393099823217,177.16082465792513,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,339.1154240418454,177.442182791566,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,337.08648810926564,177.9629435372523,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,335.1139434124195,178.25913253255337,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,333.1504818151188,178.51580543420621,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,330.7163965892807,179.01668384666013,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,328.32618647741805,179.33265616329126,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,325.82818219019595,179.50473584922813,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,322.89065922737194,180.0734988435274,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,320.34015817032326,180.3142687974083,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,317.62134502922066,180.2968968207027,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,314.7890552120521,180.3214953527893,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,311.99735604545964,180.3580463528394,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,309.1069255737056,180.4729806562942,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,306.2870498441752,180.35101809246132,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,303.6481374641374,180.20998668985496,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,301.0164951255219,180.25248653132795,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,298.7492269941021,180.1251656643045,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,296.7413841109748,179.51489486015188,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,294.68926308334625,179.31869317047446,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,292.8508111866112,179.2008290331169,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,291.0742373683693,179.1128228102758,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,289.7382595947037,178.5459540682065,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,288.8067637850972,178.31192167513316,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.9101123400964,178.28319741771404,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.7407671408767,178.26359891433944,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.3133417252656,178.23508261935447,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.0372129105735,178.25087588111555,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.0072190688273,178.24896810956008,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,287.40053712920434,178.25224414272301,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,288.57130243865566,178.27826962236176,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,289.695685244691,178.32242821642726,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,290.9208554634568,178.3512740821039,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,292.31699932872283,178.38741038070472,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,293.9226944771295,178.62803416106075,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,296.0834531408893,179.00845513740487,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,297.95844757125093,179.33384086028852,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,300.5184539128274,179.5165064285421,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,302.8876026262008,179.67468430759007,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,305.6759889160738,179.92802417890945,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,308.3143989453561,180.06145159796594,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,310.9512162405262,180.18728049243603,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,313.86322678515506,180.23061055181344,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,316.7496484600783,180.18001435740481,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,319.8078794973748,180.0713110592914,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,322.6329089564278,179.86766117277566,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,325.00681349237385,179.436843414756,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,327.83008752662766,179.1878178683456,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,330.29058529351545,178.95555991521147,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,332.3668573798697,178.4524597611593,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,334.6458260320524,178.096912034783,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,336.6729041546561,177.71716370072917,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,338.6538909898624,177.18215540948322,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,340.1467154826261,176.7043904073374,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,341.5503325242525,176.2117482644271,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,342.74399086171655,175.98107954662342,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,343.72404944810836,175.65805903943712,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,344.1442100458891,175.36515714394423,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,344.4480697481751,175.28690245396663,313.85496866606985,66.49239033124441},{314.1700984780663,182.14503133393018,344.80129966803355,175.23658149773254,313.85496866606985,66.49239033124441},null,null,null,null}</property>
+            </property>
+            <property name="ruler_visible" type="boolean">true</property>
+        </object>
+        </property>
     </property>
-    <property name="selectedtrack" type="string">Intento_2</property>
+    <property name="selectedtrack" type="string">transportador A</property>
     <property name="dividers" type="array" class="[D">
         <property name="array" type="string">{0.5722952477249748,0.5989208633093526,1.0,0.49342770475227504}</property>
     </property>
@@ -522,7 +546,7 @@
         <property name="[0]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
             <property name="[0]" type="object">
             <object class="org.opensourcephysics.cabrillo.tracker.PlotTView">
-                <property name="selected_track" type="string">Intento_2</property>
+                <property name="selected_track" type="string">transportador A</property>
                 <property name="track_views" type="collection" class="java.util.ArrayList">
                     <property name="item" type="object">
                     <object class="org.opensourcephysics.cabrillo.tracker.PlotTrackView">
@@ -545,9 +569,14 @@
         <property name="[1]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
             <property name="[1]" type="object">
             <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
-                <property name="selected_track" type="string">Intento_2</property>
+                <property name="selected_track" type="string">transportador A</property>
                 <property name="track_columns" type="array" class="[[Ljava.lang.String;">
                     <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">transportador A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">θ</property>
+                    </property>
+                    <property name="[1]" type="array" class="[Ljava.lang.String;">
                         <property name="[0]" type="string">Intento_2</property>
                         <property name="[1]" type="string">t</property>
                         <property name="[2]" type="string">x</property>
@@ -555,6 +584,28 @@
                 </property>
                 <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
                     <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">transportador A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">transportador A</property>
+                            <property name="[1]" type="string">θ</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">transportador A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">transportador A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                    </property>
+                    <property name="[1]" type="array" class="[[Ljava.lang.String;">
                         <property name="[0]" type="array" class="[Ljava.lang.String;">
                             <property name="[0]" type="string">Intento_2</property>
                             <property name="[1]" type="string">t</property>
@@ -579,7 +630,7 @@
     <property name="selected_view_types" type="array" class="[I">
         <property name="array" type="string">{0,1,2,3}</property>
     </property>
-    <property name="selected_track_views" type="string">Intento_2,null;null,Intento_2;null,null;null,null</property>
+    <property name="selected_track_views" type="string">transportador A,null;null,transportador A;null,null;null,null</property>
     <property name="toolbar" type="object">
     <object class="org.opensourcephysics.cabrillo.tracker.TToolBar">
         <property name="trace" type="boolean">false</property>
